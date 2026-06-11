@@ -58,7 +58,7 @@ md-5 = { version = "0.11.0", default-features = false }
 russh = { version = "0.60.2", default-features = false, features = ["ring", "rsa"], optional = true }
 serde = { version = "1.0.228", default-features = false, features = ["derive", "std"], optional = true }
 thiserror = { version = "2.0.18", default-features = false, features = ["std"] }
-tokio = { version = "1.52.1", default-features = false, features = ["fs", "io-util", "net", "rt", "sync", "time"] }
+tokio = { version = "1.52.3", default-features = false, features = ["fs", "io-util", "net", "rt", "sync", "time"] }
 tracing = { version = "0.1.44", default-features = false, features = ["std"] }
 similar = { version = "3.1.0", default-features = false, features = ["text"] }
 
